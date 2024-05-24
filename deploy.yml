@@ -35,7 +35,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: [group_name]
-  namespace: group03
+  namespace: [group_name]
 spec:
   ports:
     - name: web
